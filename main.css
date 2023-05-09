@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.item {
+    background-color: #f1425d;
+    padding: 30px;
+    margin: 3px;
+    color: #fff;
+    font-size: 40px;
+    flex-grow: 1;
+}
+.i2 {
+    height: 200px;
+    flex: 1 0 300px;
+}
+.i3 {
+    order: 1;
+    flex: 1;
+}
+.i4 {
+    align-self: flex-end;
+    order: -1;
+}
